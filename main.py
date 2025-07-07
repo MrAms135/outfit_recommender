@@ -1,6 +1,7 @@
 from recommender.data_loader import load_outfit_data
 from recommender.model import recommend_outfit
 
+print("Hello World")
 def main():
     outfit_data = load_outfit_data("data/outfits.csv")
     user_input = {'occasion': 'casual'}
